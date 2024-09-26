@@ -29,7 +29,7 @@ const ProjectBox = (props: ProjectBoxProps) => {
 
     return (
         <div className="p-4 border border-teal-50 rounded-xl w-64 h-auto flex flex-col justify-between"> 
-            <h3 className="mb-4 text-xl text-center whitespace-pre-line">{title}</h3> {/* Aumentar el margen inferior */}
+            <h3 className="mb-4 text-xl text-center whitespace-pre-line">{title}</h3>
             <div className="relative w-full h-[150px] mb-4"> 
                 <Image 
                     src={image} 
