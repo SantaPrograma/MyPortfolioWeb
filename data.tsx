@@ -67,18 +67,21 @@ export const dataProjects = [
         id: 1,
         title: "Web de Gestión para \nLa Cantera",
         image: "/project-1.png",
-        description: "Este proyecto consistió en la creación de un sitio web moderno y funcional para la pollería 'La Cantera'. La aplicación fue diseñada para mejorar la presencia en línea del negocio, permitiendo a los usuarios consultar el menú, realizar pedidos en línea, contactar con la empresa, etc. Además se creó una API que permita almacenar contactos y enviar mensajes de forma masiva. Fue desarrollado utilizando el lenguaje de Java y el framework de Spring Boot con base de datos en MySQL."
-    },
+        description: "Este proyecto consistió en la creación de un sitio web moderno y funcional para la pollería 'La Cantera'. La aplicación fue diseñada para mejorar la presencia en línea del negocio, permitiendo a los usuarios consultar el menú, realizar pedidos en línea, contactar con la empresa, etc. Además se creó una API que permita almacenar contactos y enviar mensajes de forma masiva.",
+        technologies: "Java, Spring Boot, MySQL, HTML, CSS, JavaScript"
+        },
     {
         id: 2,
         title: "Bot Automatizado de \nTelegram",
         image: "/project-2.png",
-        description: "Este proyecto consistió en el consumo de un API de Telegram para desarrollar y publicar un Bot capaz de responder de forma automática a diferentes comandos y notificar a contactos específicos cuando hay problemas en la Web o el API de La Cantera, además de almacenar los contactos con los que se haya comunicado y enviar mensajes personalizados de forma masiva. Fue desarrollado utilizando el framework de NodeRed con lenguaje de JavaScript.",
-    },
+        description: "Este proyecto consistió en el consumo de un API de Telegram para desarrollar y publicar un Bot capaz de responder de forma automática a diferentes comandos y notificar a contactos específicos cuando hay problemas en la Web o el API de La Cantera, además de almacenar los contactos con los que se haya comunicado y enviar mensajes personalizados de forma masiva.",
+        technologies: "JavaScript, NodeRed, Java"
+        },
     {
         id: 3,
         title: "Aplicación para Seguimiento de Gastos",
         image: "/project-3.png",
-        description: "Este proyecto consistió en la creación de un aplicativo capaz de ayudar a los usuarios a registrar y gestionar sus gastos de manera fácil y rápida. Permite ingresar información sobre cada gasto, como la fecha, el tipo, una breve descripción y el monto. Los usuarios pueden ver un listado de sus gastos y filtrar por fechas para tener un mejor control de sus finanzas personales, además de poder observar los gastos en un Dashboard. Este proyecto fue desarrollado en el lenguaje de C# y el framework .Net con base de datos en SQLServer, adicionalmente se incluyó la librería Syncfusion.",
+        description: "Este proyecto consistió en la creación de un aplicativo capaz de ayudar a los usuarios a registrar y gestionar sus gastos de manera fácil y rápida. Permite ingresar información sobre cada gasto, como la fecha, el tipo, una breve descripción y el monto. Los usuarios pueden ver un listado de sus gastos y filtrar por fechas para tener un mejor control de sus finanzas personales, además de poder observar los gastos en un Dashboard.",
+        technologies: "C#, .Net, SQLServer",
     }
 ];
