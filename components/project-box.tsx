@@ -11,11 +11,12 @@ interface ProjectBoxProps {
         image: string;
         description: string;
         technologies: string;
+        pdfDemo: string;
     };
 }
 
 const ProjectBox = ({ data }: ProjectBoxProps) => {
-    const { title, image, description, technologies } = data;
+    const { title, image, description, technologies, pdfDemo } = data;
 
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -47,7 +48,7 @@ const ProjectBox = ({ data }: ProjectBoxProps) => {
                     Más info
                 </button>
                 <a 
-                    href="/" 
+                    href={pdfDemo} 
                     target="_blank"
                     className="p-2 transition duration-150 rounded-lg text-gray-800 bg-primary hover:bg-primary/80 flex-1 text-center">
                     Demo
