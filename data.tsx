@@ -57,7 +57,7 @@ export const dataAboutPage = [
         id: 2,
         title: "Analista QA",
         subtitle: "FEXTECH",
-        description: "Proyecto: Servicio de adecuaciones del software para la migración de las opciones del SICMAC al Índigo de Caja Ica. \nEntre mis responsabilidades se incluyeron el desarrollo, ejecución y documentación de pruebas de las funcionalidades migradas, así como la coordinación de los pases a producción.",
+        description: "Colaboración en un proyecto de adecuaciones de software para la Caja Ica, orientado a la migración de opciones de un sistema existente a una nueva plataforma interna. \nEntre mis responsabilidades se incluyeron el desarrollo, ejecución y documentación de pruebas de las funcionalidades migradas, así como la coordinación de los pases a producción.",
         date: "Febrero 2024",
     },
 ]
