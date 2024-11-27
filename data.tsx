@@ -50,15 +50,22 @@ export const dataAboutPage = [
         id: 1,
         title: "Barista",
         subtitle: "Starbucks El Quinde",
-        description: "Preparando alimentos y bebidas cumpliendo con los estándares de calidad de Starbucks, gestionando transacciones con precisión y manteniendo un entorno de trabajo limpio y armonioso.",
+        description: "Preparé alimentos y bebidas cumpliendo con los estándares de calidad de Starbucks, gestioné transacciones con precisión y mantuve un entorno de trabajo limpio y armonioso.",
         date: "Marzo 2022",
     },
     {
         id: 2,
-        title: "Analista QA",
+        title: "Analista de control de calidad",
         subtitle: "FEXTECH",
-        description: "Colaboración en un proyecto de adecuaciones de software para la Caja Ica, orientado a la migración de opciones de un sistema existente a una nueva plataforma interna. \nEntre mis responsabilidades se incluyeron el desarrollo, ejecución y documentación de pruebas de las funcionalidades migradas, así como la coordinación de los pases a producción.",
+        description: "Colaboré en un proyecto de adecuaciones de software para la Caja Ica, orientado a la migración de funcionalidades de un sistema existente a una nueva plataforma interna.",
         date: "Febrero 2024",
+    },
+    {
+        id: 3,
+        title: "Desarrollador web junior",
+        subtitle: "Neon House Led",
+        description: "Desarrollé, depuré y optimicé funcionalidades del aplicativo web, mejorando su rendimiento, asegurando su correcto funcionamiento y alineando las soluciones con las necesidades del negocio.",
+        date: "Noviembre 2024",
     },
 ]
 
