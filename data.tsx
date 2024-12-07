@@ -55,7 +55,7 @@ export const dataAboutPage = [
     },
     {
         id: 2,
-        title: "Analista de control de calidad",
+        title: "Analista de aseguramiento de calidad",
         subtitle: "FEXTECH",
         description: "Colaboré en un proyecto de adecuaciones de software para la Caja Ica, orientado a la migración de funcionalidades de un sistema existente a una nueva plataforma interna.",
         date: "Febrero 2024",
