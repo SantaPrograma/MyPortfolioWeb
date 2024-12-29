@@ -19,12 +19,12 @@ const ProjectsPage = () => {
                         Mis últimos <span className="text-primary font-bold">Proyectos Realizados</span>
                     </h1>
 
-                    <div className="relative z-10 grid max-w-5xl gap-6 mx-auto mt-4 md:grid-cols-3">
+                    <div className="relative z-10 grid max-w-5xl gap-6 mx-auto mt-4 md:grid-cols-3 mb-20">
                         {dataProjects.map((data) => (
                             <ProjectBox key={data.id} data={data}/>
                         ))}
                     </div>
-
+                    <br/>
                 </div>
 
             </ContainerPage>

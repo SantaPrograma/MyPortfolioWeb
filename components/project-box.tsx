@@ -29,34 +29,35 @@ const ProjectBox = ({ data }: ProjectBoxProps) => {
     };
 
     return (
-        <div className="p-4 border border-teal-50 rounded-xl w-64 h-auto flex flex-col justify-between">
-            <h3 className="mb-4 text-xl text-center whitespace-pre-line">{title}</h3>
-            <div className="relative w-full h-[150px] mb-4">
-                <Image 
-                    src={image} 
-                    alt={title}
-                    layout="fill" 
-                    objectFit="cover" 
-                    className="rounded-2xl" 
-                />
-            </div>
+        <div className="mb-4">
+            <div className="p-4 border border-teal-50 rounded-xl w-64 h-auto flex flex-col justify-between">
+                <h3 className="text-xl text-center whitespace-pre-line">{title}</h3>
+                <div className="relative w-full h-[150px] mb-4">
+                    <Image 
+                        src={image} 
+                        alt={title}
+                        layout="fill" 
+                        objectFit="cover" 
+                        className="rounded-2xl" 
+                    />
+                </div>
 
-            <div className="flex gap-5">
-                <button
-                    onClick={handleProjectSelect}
-                    className="p-2 transition duration-150 rounded-lg text-gray-800 bg-primary hover:bg-primary/80 flex-1 text-center">
-                    Más info
-                </button>
-                <a 
-                    href={pdfDemo} 
-                    target="_blank"
-                    className="p-2 transition duration-150 rounded-lg text-gray-800 bg-primary hover:bg-primary/80 flex-1 text-center">
-                    Demo
-                </a>
-            </div>
+                <div className="flex gap-5">
+                    <button
+                        onClick={handleProjectSelect}
+                        className="p-2 transition duration-150 rounded-lg text-gray-800 bg-primary hover:bg-primary/80 flex-1 text-center">
+                        Más info
+                    </button>
+                    <a 
+                        href={pdfDemo} 
+                        target="_blank"
+                        className="p-2 transition duration-150 rounded-lg text-gray-800 bg-primary hover:bg-primary/80 flex-1 text-center">
+                        Demo
+                    </a>
+                </div>
 
-            <Modal isOpen={isModalOpen} onClose={handleCloseModal} project={{ title, description, technologies }}>
-            </Modal>
+                <Modal isOpen={isModalOpen} onClose={handleCloseModal} project={{ title, description, technologies }} />
+            </div>
         </div>
     );
 };

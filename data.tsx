@@ -77,7 +77,7 @@ export const dataProjects = [
         description: "Este proyecto consistió en la creación de un sitio web moderno y funcional para la pollería 'La Cantera'. La aplicación fue diseñada para mejorar la presencia en línea del negocio, permitiendo a los usuarios consultar el menú, realizar pedidos en línea, contactar con la empresa, etc. Además se creó una API que permita almacenar contactos y enviar mensajes de forma masiva.",
         technologies: "Java, Spring Boot, MySQL, HTML, CSS, JavaScript",
         pdfDemo: "/NebulaLaCanteraWebDemo.pdf"
-        },
+    },
     {
         id: 2,
         title: "Bot Automatizado de \nTelegram",
@@ -85,7 +85,7 @@ export const dataProjects = [
         description: "Este proyecto consistió en el consumo de un API de Telegram para desarrollar y publicar un Bot capaz de responder de forma automática a diferentes comandos y notificar a contactos específicos cuando hay problemas en la Web o el API de La Cantera, además de almacenar los contactos con los que se haya comunicado y enviar mensajes personalizados de forma masiva.",
         technologies: "JavaScript, NodeRed, Java",
         pdfDemo: "/NebulaAssistantBotDemo.pdf"
-        },
+    },
     {
         id: 3,
         title: "Aplicación para Seguimiento de Gastos",
@@ -93,5 +93,13 @@ export const dataProjects = [
         description: "Este proyecto consistió en la creación de un aplicativo capaz de ayudar a los usuarios a registrar y gestionar sus gastos de manera fácil y rápida. Permite ingresar información sobre cada gasto, como la fecha, el tipo, una breve descripción y el monto. Los usuarios pueden ver un listado de sus gastos y filtrar por fechas para tener un mejor control de sus finanzas personales, además de poder observar los gastos en un Dashboard.",
         technologies: "C#, .Net, SQLServer",
         pdfDemo: "/ExpenseTrackerDemo.pdf"
+    },
+    {
+        id: 4,
+        title: "Sistema de almacenamiento",
+        image: "/project-4.png",
+        description: "Este proyecto consistió en la creación de una plataforma de almacenamiento de archivos, dividida en dos componentes principales: frontend y backend. El sistema permite a los usuarios registrarse, iniciar sesión, cargar, ver, descargar y eliminar archivos de manera sencilla. Se utilizó Multer para gestionar la carga de archivos de forma eficiente y segura, JSON Web Tokens y encriptación de contraseñas para garantizar la seguridad y privacidad de los datos y que los usuarios solo puedan acceder a sus propios archivos, evitando que vea los archivos de otro.",
+        technologies: "Node.js, JavaScript, Express.js, TypeScript, Next.js, React, SQLServer",
+        pdfDemo: "/SistemaAlmacenamientoDemo.pdf"
     }
 ];
