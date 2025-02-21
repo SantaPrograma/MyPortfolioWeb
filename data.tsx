@@ -64,7 +64,7 @@ export const dataAboutPage = [
         id: 3,
         title: "Desarrollador web junior",
         subtitle: "Neon House Led",
-        description: "Desarrollé, depuré y optimicé funcionalidades del aplicativo web, mejorando su rendimiento, asegurando su correcto funcionamiento y alineando las soluciones con las necesidades del negocio.",
+        description: "Participé en la migración de una aplicación de PHP a Next.js, desarrollando nuevas funcionalidades, optimizando su rendimiento y documentando el código.",
         date: "Noviembre 2024",
     },
 ]
