@@ -39,7 +39,7 @@ const Introduction = () => {
                         Busco oportunidades para ampliar mi experiencia y aportar en proyectos innovadores.
                     </p>
 
-                    <div className="flex justify-center gap-3 md:justify-start md:gap-10">
+                    <div className="flex justify-center gap-3 md:justify-start md:gap-10 pb-16 md:pb-0">
 
                         <a href="/about-me" className="px-3 py-2 transition-all border-2 cursor-pointer
                         text-primary border-primary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-primary/50">
