@@ -55,16 +55,16 @@ export const dataAboutPage = [
     },
     {
         id: 2,
-        title: "Analista de aseguramiento de calidad",
+        title: "Analista QA",
         subtitle: "FEXTECH",
-        description: "Colaboré en un proyecto de adecuaciones de software para la Caja Ica, orientado a la migración de funcionalidades de un sistema existente a una nueva plataforma interna.",
+        description: "Colaboré en un proyecto de adecuaciones de software para la Caja Ica, enfocado en la migración de funcionalidades desde un sistema existente en Visual Basic a una nueva plataforma desarrollada en C# y .NET.",
         date: "Febrero 2024",
     },
     {
         id: 3,
         title: "Desarrollador web junior",
         subtitle: "Neon House Led",
-        description: "Contribuí en la migración de una aplicación de PHP a Next.js y desarrollé nuevas funcionalidades alineadas con las necesidades del negocio.",
+        description: "Participé en un proyecto de migración del frontend desde HTML estático hacia una arquitectura moderna basada en Next.js y React.",
         date: "Noviembre 2024",
     },
 ]
