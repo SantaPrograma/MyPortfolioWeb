@@ -72,34 +72,30 @@ export const dataAboutPage = [
 export const dataProjects = [
     {
         id: 1,
-        title: "Web de Gestión para \nLa Cantera",
+        title: "Web de gestión para La Cantera (Nebula)",
         image: "/project-1.png",
-        description: "Este proyecto consistió en la creación de un sitio web moderno y funcional para la pollería 'La Cantera'. La aplicación fue diseñada para mejorar la presencia en línea del negocio, permitiendo a los usuarios consultar el menú, realizar pedidos en línea, contactar con la empresa, etc. Además se creó una API que permita almacenar contactos y enviar mensajes de forma masiva.",
-        technologies: "Java, Spring Boot, MySQL, HTML, CSS, JavaScript",
-        pdfDemo: "/NebulaLaCanteraWebDemo.pdf"
+        description: "Desarrollé una plataforma web de tipo e-commerce para la pollería 'La Cantera', orientada a optimizar su presencia digital y automatizar la gestión de pedidos. La solución incluye funcionalidades clave como visualización dinámica del menú, sistema de pedidos en línea, formulario de contacto con integración a base de datos y panel administrativo. Además, implementé una API RESTful para la gestión de clientes y el envío masivo de mensajes, facilitando campañas de marketing y atención al cliente. Todo el sistema fue desarrollado bajo una arquitectura robusta utilizando Java, Spring Boot y MySQL en el backend, con tecnologías web modernas en el frontend.",
+        technologies: "Java, Spring Boot, HTML, CSS, JavaScript, MySQL"
     },
     {
         id: 2,
-        title: "Bot Automatizado de \nTelegram",
+        title: "Bot automatizado de Telegram (NebulaBot)",
         image: "/project-2.png",
-        description: "Este proyecto consistió en el consumo de un API de Telegram para desarrollar y publicar un Bot capaz de responder de forma automática a diferentes comandos y notificar a contactos específicos cuando hay problemas en la Web o el API de La Cantera, además de almacenar los contactos con los que se haya comunicado y enviar mensajes personalizados de forma masiva.",
-        technologies: "JavaScript, NodeRed, Java",
-        pdfDemo: "/NebulaAssistantBotDemo.pdf"
+        description: "Implementé un bot en Telegram diseñado como canal de atención automatizada y soporte para la pollería 'La Cantera'. Este bot consume la API de Telegram y permite responder consultas frecuentes, enviar imágenes promocionales, videos, e interactuar con los usuarios en tiempo real. Además, actúa como herramienta de monitoreo notificando automáticamente a los administradores ante fallos en el sitio web o en la API. Incluye funcionalidades de envío masivo de mensajes personalizados y almacenamiento de contactos para campañas de marketing directo. La solución fue desarrollada con JavaScript, Node-RED y Java, integrando automatización, comunicación y monitoreo en un solo flujo eficiente.",
+        technologies: "Java, JavaScript, Node.js, Node-RED"
     },
     {
         id: 3,
-        title: "Aplicación para Seguimiento de Gastos",
+        title: "Sistema de Gestión Escolar - Angelitos del Carmelo",
         image: "/project-3.png",
-        description: "Este proyecto consistió en la creación de un aplicativo capaz de ayudar a los usuarios a registrar y gestionar sus gastos de manera fácil y rápida. Permite ingresar información sobre cada gasto, como la fecha, el tipo, una breve descripción y el monto. Los usuarios pueden ver un listado de sus gastos y filtrar por fechas para tener un mejor control de sus finanzas personales, además de poder observar los gastos en un Dashboard.",
-        technologies: "C#, .Net, SQLServer",
-        pdfDemo: "/ExpenseTrackerDemo.pdf"
+        description: "Este sistema fue desarrollado para optimizar y modernizar la gestión integral del colegio inicial Angelitos del Carmelo. La plataforma sirve como base informativa orientada a padres y apoderados, además de incluir módulos para el registro y control del personal, gestión de usuarios con control de roles, inventario de recursos educativos, matrículas escolares, y un sistema de contacto directo con la institución. Cuenta con un método de autenticación segura mediante JSON Web Tokens (JWT), control de acceso según roles de usuario, encriptación segura de contraseñas, protección de rutas API y funcionalidad para carga de archivos. El diseño es intuitivo, escalable y centrado en la seguridad de los datos.",
+        technologies: "TypeScript, Next.js, React, Tailwind CSS, Express.js, Node.js, MySQL, JWT"
     },
     {
         id: 4,
-        title: "Sistema de almacenamiento",
+        title: "Aplicación para seguimiento de gastos (ExpenseTracker)",
         image: "/project-4.png",
-        description: "Este proyecto consistió en la creación de una plataforma de almacenamiento de archivos, dividida en dos componentes principales: frontend y backend. El sistema permite a los usuarios registrarse, iniciar sesión, cargar, ver, descargar y eliminar archivos de manera sencilla. Se utilizó Multer para gestionar la carga de archivos de forma eficiente y segura, JSON Web Tokens y encriptación de contraseñas para garantizar la seguridad y privacidad de los datos y que los usuarios solo puedan acceder a sus propios archivos, evitando que vea los archivos de otro.",
-        technologies: "Node.js, JavaScript, Express.js, TypeScript, Next.js, React, SQLServer",
-        pdfDemo: "/SistemaAlmacenamientoDemo.pdf"
-    }
+        description: "Desarrollé una aplicación de gestión financiera personal orientada a optimizar el control de gastos diarios. La solución permite registrar transacciones con detalles como fecha, categoría, descripción y monto. Incorpora un panel de control (Dashboard) intuitivo que visualiza los gastos mediante gráficos y filtros por rango de fechas, facilitando el análisis del comportamiento financiero del usuario. El sistema fue construido con C#, .NET y SQL Server, ofreciendo una interfaz ágil y una arquitectura robusta, ideal para aplicaciones financieras escalables.",
+        technologies: "C#, .NET, SQL Server"
+    },
 ];

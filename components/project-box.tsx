@@ -16,8 +16,7 @@ interface ProjectBoxProps {
 }
 
 const ProjectBox = ({ data }: ProjectBoxProps) => {
-    const { title, image, description, technologies, pdfDemo } = data;
-
+    const { title, image, description, technologies } = data;
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const handleProjectSelect = () => {
@@ -30,33 +29,32 @@ const ProjectBox = ({ data }: ProjectBoxProps) => {
 
     return (
         <div className="mb-4">
-            <div className="p-4 border border-teal-50 rounded-xl w-64 h-auto flex flex-col justify-between">
-                <h3 className="text-xl text-center whitespace-pre-line">{title}</h3>
-                <div className="relative w-full h-[150px] mb-4">
-                    <Image 
-                        src={image} 
+            <div className="w-72 h-[370px] border border-white rounded-xl p-4 bg-transparent flex flex-col justify-between shadow-lg">
+
+                <h3 className="text-lg font-semibold text-center mb-3">{title}</h3>
+
+                <div className="relative w-full h-[160px] rounded-md overflow-hidden mb-4">
+                    <Image
+                        src={image}
                         alt={title}
-                        layout="fill" 
-                        objectFit="cover" 
-                        className="rounded-2xl" 
+                        layout="fill"
+                        objectFit="cover"
+                        className="rounded-md"
                     />
                 </div>
 
-                <div className="flex gap-5">
-                    <button
-                        onClick={handleProjectSelect}
-                        className="p-2 transition duration-150 rounded-lg text-gray-800 bg-primary hover:bg-primary/80 flex-1 text-center">
-                        Más info
-                    </button>
-                    <a 
-                        href={pdfDemo} 
-                        target="_blank"
-                        className="p-2 transition duration-150 rounded-lg text-gray-800 bg-primary hover:bg-primary/80 flex-1 text-center">
-                        Demo
-                    </a>
-                </div>
+                <button
+                    onClick={handleProjectSelect}
+                    className="px-4 py-2 bg-primary text-gray-800 text-sm rounded-md hover:bg-primary/80 transition"
+                >
+                    Ver más información
+                </button>
 
-                <Modal isOpen={isModalOpen} onClose={handleCloseModal} project={{ title, description, technologies }} />
+                <Modal
+                    isOpen={isModalOpen}
+                    onClose={handleCloseModal}
+                    project={{ title, description, technologies }}
+                />
             </div>
         </div>
     );
