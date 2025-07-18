@@ -11,7 +11,6 @@ interface ProjectBoxProps {
         image: string;
         description: string;
         technologies: string;
-        pdfDemo: string;
     };
 }
 
