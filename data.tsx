@@ -64,7 +64,7 @@ export const dataAboutPage = [
         id: 3,
         title: "Desarrollador web junior",
         subtitle: "Neon House Led",
-        description: "Participé en un proyecto de migración del frontend desde HTML estático hacia una arquitectura moderna basada en Next.js y React.",
+        description: "Participé en un proyecto de migración de frontend de un sitio estático a Next.js/React, desarrollando también funcionalidades backend en Express.js.",
         date: "Noviembre 2024",
     },
     {

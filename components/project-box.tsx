@@ -28,9 +28,12 @@ const ProjectBox = ({ data }: ProjectBoxProps) => {
 
     return (
         <div className="mb-4">
+
             <div className="w-72 h-[370px] border border-white rounded-xl p-4 bg-transparent flex flex-col justify-between shadow-lg">
 
-                <h3 className="text-lg font-semibold text-center mb-3">{title}</h3>
+                <h3 className="text-lg font-semibold text-center text-white mb-3">
+                    {title}
+                </h3>
 
                 <div className="relative w-full h-[160px] rounded-md overflow-hidden mb-4">
                     <Image
@@ -48,13 +51,13 @@ const ProjectBox = ({ data }: ProjectBoxProps) => {
                 >
                     Ver más información
                 </button>
-
-                <Modal
-                    isOpen={isModalOpen}
-                    onClose={handleCloseModal}
-                    project={{ title, description, technologies }}
-                />
             </div>
+
+            <Modal
+                isOpen={isModalOpen}
+                onClose={handleCloseModal}
+                project={{ title, description, technologies }}
+            />
         </div>
     );
 };
