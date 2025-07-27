@@ -67,6 +67,20 @@ export const dataAboutPage = [
         description: "Participé en un proyecto de migración del frontend desde HTML estático hacia una arquitectura moderna basada en Next.js y React.",
         date: "Noviembre 2024",
     },
+    {
+        id: 4,
+        title: "I.E.P. Angelitos del Carmelo",
+        subtitle: "FEXTECH",
+        description: "Desarrollé un aplicativo web adaptado a las necesidades específicas de la institución, utilizando Next.js/React para el frontend y Express.js. para el backend.",
+        date: "Marzo 2025",
+    },
+    {
+        id: 5,
+        title: "Sunfruits",
+        subtitle: "Analista programador",
+        description: "Participé en la creación y evolución de soluciones tecnológicas orientadas a mejorar los procesos operativos y administrativos, utilizando ASP.NET.",
+        date: "Julio 2025",
+    },
 ]
 
 export const dataProjects = [
