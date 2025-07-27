@@ -76,8 +76,8 @@ export const dataAboutPage = [
     },
     {
         id: 5,
-        title: "Sunfruits",
-        subtitle: "Analista programador",
+        title: "Analista programador",
+        subtitle: "Sunfruits",
         description: "Participé en la creación y evolución de soluciones tecnológicas orientadas a mejorar los procesos operativos y administrativos, utilizando ASP.NET.",
         date: "Julio 2025",
     },
