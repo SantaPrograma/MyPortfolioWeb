@@ -69,8 +69,8 @@ export const dataAboutPage = [
     },
     {
         id: 4,
-        title: "I.E.P. Angelitos del Carmelo",
-        subtitle: "FEXTECH",
+        title: "Desarrollador fullstack freelance",
+        subtitle: "I.E.P. Angelitos del Carmelo",
         description: "Desarrollé un aplicativo web adaptado a las necesidades específicas de la institución, utilizando Next.js/React para el frontend y Express.js. para el backend.",
         date: "Marzo 2025",
     },
