@@ -69,7 +69,7 @@ export const dataAboutPage = [
     },
     {
         id: 4,
-        title: "Desarrollador fullstack freelance",
+        title: "Freelancer",
         subtitle: "I.E.P. Angelitos del Carmelo",
         description: "Desarrollé un aplicativo web adaptado a las necesidades específicas de la institución, utilizando Next.js/React para el frontend y Express.js. para el backend.",
         date: "Marzo 2025",
@@ -77,7 +77,7 @@ export const dataAboutPage = [
     {
         id: 5,
         title: "Analista programador",
-        subtitle: "Sunfruits",
+        subtitle: "Sun Fruits exports",
         description: "Participé en la creación y evolución de soluciones tecnológicas orientadas a mejorar los procesos operativos y administrativos, utilizando ASP.NET.",
         date: "Julio 2025",
     },

@@ -4,12 +4,17 @@ import Introduction from "@/components/introduction";
 
 export default function Home() {
   return (
-    <main>
-      <TransitionPage/>
-      <div className="flex flex-col md:flex-row min-h-screen h-full bg-no-repeat bg-gradient-cover">
+    <main className="relative min-h-screen overflow-hidden bg-gradient-cover">
+      
+      <div className="absolute inset-0 z-0">
         <CoverParticles/>
+      </div>
+
+      <div className="relative z-10 flex flex-col md:flex-row min-h-screen">
+        <TransitionPage/>
         <Introduction/>
       </div>
+
     </main>
   );
 }
